@@ -13,7 +13,7 @@ const name =
     identity.user.user_metadata &&
     identity.user.user_metadata.full_name
     return(
-        isLoggedIn (
+        isLoggedIn &&(
             <div className = "dashboard-header">
                 <nav>
                     <Link to ="/dashboard/secret" activeClassName = "active">Secrets</Link>
