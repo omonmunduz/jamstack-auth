@@ -20,7 +20,7 @@
     background-color: #2C363F;
     margin: 3em auto;
 }
-.dashboard-haeder a {
+.profile-nav a {
     text-decoration: none;
     color: #F7F7FF;
     font-size: 1.777em;
@@ -28,6 +28,6 @@
     text-transform: capitalize;
     font-weight: bold;
 } 
-.dashboard-haeder a:hover {
+.profile-nav a:hover {
     color: #FFE74C;
 }
