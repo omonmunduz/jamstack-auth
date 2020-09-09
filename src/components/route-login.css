@@ -7,8 +7,10 @@
 
 }
 .login-text {
-    font-size: 3rem;
+    font-size: 2.50rem;
     color: #07393C;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
 }
 .loginBtn {
     padding:11px;

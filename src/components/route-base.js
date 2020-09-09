@@ -1,8 +1,11 @@
 import React from 'react';
+import DummyText from './dummy';
 
 const RouteBase = () => {
     return(
-        <h1>Your base will be located here. sorry</h1>
+        <>
+            <DummyText/>        
+        </>
     )
 };
 export default RouteBase;
