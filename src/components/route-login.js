@@ -1,7 +1,6 @@
 import React from 'react';
 import { useIdentityContext } from 'react-netlify-identity';
 import { navigate } from 'gatsby';
-
 import './route-login.css';
 
 const RouteLogin = ({showModal}) => {

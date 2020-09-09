@@ -18,5 +18,5 @@
 }
 .loginBtn:hover {
     background-color: #E2C044;
-    transform: scaleY(1.5);
+    transform: scaleX(1.3);
 }

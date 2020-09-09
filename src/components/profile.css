@@ -13,3 +13,21 @@
     background-color: #AF3B6E;
     color: #FFDD4A;
 }
+.profile-nav {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1.5em;
+    background-color: #2C363F;
+    margin: 3em auto;
+}
+.dashboard-haeder a {
+    text-decoration: none;
+    color: #F7F7FF;
+    font-size: 1.777em;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    font-weight: bold;
+} 
+.dashboard-haeder a:hover {
+    color: #FFE74C;
+}

@@ -3,11 +3,8 @@ import useMetadata from '../hooks/use-siteMetadata';
 
 import { IdentityContextProvider } from  'react-netlify-identity-widget';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
 
 import Header from './header';
-
-
 import './layout.css';
 
 const Layout = ({children}) => {
