@@ -1,18 +1,32 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import useMetadata from '../hooks/use-siteMetadata';
+
 import { IdentityContextProvider } from  'react-netlify-identity-widget';
+import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
+
+import Header from './header';
+
 
 import './layout.css';
 
-const Layout = ({children}) => (
-        <IdentityContextProvider url = "https://jamstack312-auth.netlify.app">
-            <header>
-                <Link to = "/">JAMstack App</Link>
-            </header>
-            <main>
-                {children}
-            </main>
-        </IdentityContextProvider>
-    );
+const Layout = ({children}) => {
+ const {title, description } = useMetadata();
+    return (
+        <>
+            <Helmet>
+                <html lang = "eng"/>
+                <title>{title}</title>
+                <meta name = "description" content = {description}/>
+            </Helmet>
+            <IdentityContextProvider url = "https://jamstack312-auth.netlify.app">
+               <Header />
+                <main>
+                    {children}
+                </main>
+            </IdentityContextProvider>
+        </>
+    )
+};
 
 export default Layout;
