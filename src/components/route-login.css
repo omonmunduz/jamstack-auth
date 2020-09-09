@@ -1,6 +1,10 @@
 .login {
     width: 550px;
     margin: 2rem auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 2.50em 1.70em;
+
 }
 .login-text {
     font-size: 3rem;
@@ -17,6 +21,5 @@
     transition:0.5s;
 }
 .loginBtn:hover {
-    background-color: #E2C044;
     transform: scaleX(1.3);
 }
