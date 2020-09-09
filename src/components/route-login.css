@@ -1,0 +1,22 @@
+.login {
+    width: 550px;
+    margin: 2rem auto;
+}
+.login-text {
+    font-size: 3rem;
+    color: #07393C;
+}
+.loginBtn {
+    padding:11px;
+    font-size: 1.33rem;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #9D8DF1;
+    color: #07393C;
+    transition:0.5s;
+}
+.loginBtn:hover {
+    background-color: #E2C044;
+    transform: scaleY(1.5);
+}

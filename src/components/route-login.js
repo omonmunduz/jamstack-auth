@@ -2,6 +2,8 @@ import React from 'react';
 import { useIdentityContext } from 'react-netlify-identity';
 import { navigate } from 'gatsby';
 
+import './route-login.css';
+
 const RouteLogin = ({showModal}) => {
 
     const identity = useIdentityContext();
@@ -9,10 +11,10 @@ const RouteLogin = ({showModal}) => {
         navigate('/dashboard/secret', { replace: true });
     }
     return(
-        <>
-            <h1>Login or Signup</h1>
-            <button onClick = {showModal}>Login</button>
-        </>
+        <div className = "login">
+            <h1 className = "login-text">Login or Signup</h1>
+            <button onClick = {showModal} className = "loginBtn">Login</button>
+        </div>
     )
 };
 export default RouteLogin;
