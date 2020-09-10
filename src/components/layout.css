@@ -8,24 +8,9 @@ body {
   margin: 0;
 }
 
-header {
-  background: #111;
-  color: white;
-  padding: 1rem 5vw;
-}
-
-header a {
-  color: inherit;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 main {
-  margin: 0 auto;
-  width: 90vw;
-  max-width: 900px;
   padding:0.15em;
+  width:100vw;
 }
 
 h1 {

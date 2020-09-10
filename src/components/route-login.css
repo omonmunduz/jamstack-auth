@@ -4,8 +4,14 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
     padding: 2.50em 1.70em;
+}
+@media (max-width: 620px) {
+    .login {
+        width: auto;
+    }
 
 }
+
 .login-text {
     font-size: 2.50rem;
     color: #07393C;
