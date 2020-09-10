@@ -13,13 +13,8 @@ const HeroImage = styled("div")`
         }
 `;
 const TextBox = styled("div")`
-    background-image: linear-gradient(to top, #ddbbffdd 2rem, #ddbbff00);
-    padding: 0 calc((100vw - 550px)/2) 2rem;
-    display:flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: flex-end;
-    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2rem;
 `;
 
 const Hero = () => {

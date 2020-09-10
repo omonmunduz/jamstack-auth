@@ -3,7 +3,12 @@ module.exports = {
         title: 'The power of Jamstack',
         desciption: 'This website uses Gatsby, GraphQL and Netlify'
     },
-    plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-emotion',
+    plugins: [
+        'gatsby-plugin-react-helmet',
+        'gatsby-plugin-emotion',
+        'gatsby-plugin-sharp',
+        'gatsby-transformer-sharp',
+
     {
         resolve: 'gatsby-plugin-react-svg',
         options: {
@@ -12,5 +17,12 @@ module.exports = {
           }
         }
     },
+    {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            name: 'images',
+            path: 'images',
+        }
+    }
     ]
 };
