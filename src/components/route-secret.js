@@ -1,8 +1,12 @@
 import React from 'react';
+import {css} from '@emotion/core';
 
 const RouteSecret = () => {
     return(
-        <>
+        <div css = {css`
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            padding: 1.80rem;
+        `}>
                 <h1>Where does it come from?</h1>
                <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
@@ -13,7 +17,7 @@ const RouteSecret = () => {
                  a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 
                  t amet..", comes from a line in section 1.10.32.  
                 </p>      
-        </>
+        </div>
     )
 };
 export default RouteSecret;

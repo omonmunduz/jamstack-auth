@@ -19,12 +19,11 @@ const name =
     return(
         isLoggedIn &&(
             <div className = "dashboard-header">
-                <icon/>
                 <nav className = "profile-nav">
                     <Link to ="/dashboard/secret" activeClassName = "active" >Secrets</Link>
                     <Link to = "/dashboard/base" activeClassName = "active">Base</Link>
+                    <span className = "user-name">Logged in as {name}<button onClick = {showModal} className = "logoutBtn">Logout</button></span>
                 </nav>
-                <span className = "user-name">Logged in as {name}<button onClick = {showModal} className = "logoutBtn">Logout</button></span>
             </div>
         )
     )

@@ -4,28 +4,19 @@ import {css} from '@emotion/core';
 
 const Header = () => (
         <header css = {css`
-            align-items: baseline;
-            background: #ddd;
+            width: 100%;
+            background: #2C363F;
             display: flex;
-            font-size: 0.875rem;
-            justify-content: space-between;
-            margin: 0 -5vw;
-            padding: 0.5rem 5vw;
+            align-items: center;
         `}>
             <Link to = "/" css = {css`
-                color: #222;
+                color: #FFE74C;
                 display: inline-block;
                 padding: 0.25rem 0.5rem;
+                font-size: 4rem;
                 text-decoration: none;
-                    & :hover:not(.active){
-                        background: #bbb;
-                    }
-                    & .active {
-                        background: #333;
-                        color: white;
-                    }
             `}>
-                JAMstack App
+                &#x02A50;
             </Link>
         </header>
 );

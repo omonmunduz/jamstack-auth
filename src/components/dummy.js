@@ -5,7 +5,6 @@ const DummyText = () => {
 
     return (
         <div css = {css`
-            width: 500px;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             padding: 1.80rem;
             position:relative;

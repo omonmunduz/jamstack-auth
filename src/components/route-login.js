@@ -14,7 +14,7 @@ const RouteLogin = ({showModal}) => {
         <div className = "login">
             <span css = {css`
             font-size: 100px;
-            color: blue;
+            color: #279AF1;
             `}>&#x02591;</span>
             <h1 className = "login-text">Login or Signup</h1>
             <button onClick = {showModal} className = "loginBtn">Login</button>

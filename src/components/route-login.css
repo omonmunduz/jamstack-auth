@@ -18,8 +18,8 @@
     width: 150px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #9D8DF1;
-    color: #07393C;
+    background-color: #279AF1;
+    color: #F7F7FF;
     transition:0.5s;
 }
 .loginBtn:hover {
