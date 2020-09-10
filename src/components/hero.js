@@ -16,8 +16,8 @@ const ImageBackground = styled(BackgroundImage)`
 
     @media (max-width: 650px) {
         padding: 1.2rem
-
         }
+    
 `;
 const TextBox = styled("div")`
     background-color: #F7F7FF;
@@ -29,6 +29,10 @@ const TextBox = styled("div")`
         width: 90%;
         margin: 1.50rem auto;
         }
+    @media (max-width: 500px) {
+        width: 100%;
+        margin:0;
+    }
 `;
 
 const Hero = () => {

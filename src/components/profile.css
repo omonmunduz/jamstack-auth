@@ -21,6 +21,20 @@
     background-color: #2C363F;
     margin: 3em auto;
 }
+@media only screen and (max-width: 650px) {
+    .user-name {
+        display: flex;
+        flex-direction: column;
+    }
+    .logoutBtn {
+        width:300px;
+        margin:5px auto;
+    }
+    .profile-nav {
+        flex-direction: column;
+        text-align:center;
+    }
+}
 .profile-nav a {
     text-decoration: none;
     color: #F7F7FF;
