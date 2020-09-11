@@ -13,24 +13,20 @@ const ImageBackground = styled(BackgroundImage)`
         + * {
             margin-top: 0;
         }
-
     @media (max-width: 650px) {
         padding: 1.2rem
         }
-    
 `;
+
 const TextBox = styled("div")`
     background-color: #F7F7FF;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding:  1.70rem;
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
 
     @media (max-width: 650px) {
-        width: 90%;
         margin: 1.50rem auto;
         }
     @media (max-width: 500px) {
-        width: 100%;
         margin:0;
     }
 `;
